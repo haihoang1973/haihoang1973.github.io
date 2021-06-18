@@ -1,0 +1,39 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+    border: 1px solid seagreen;
+    margin-bottom: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: end;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+
+#nav{
+    clear: both;
+    border: 1px solid seagreen;
+    width: 500px;
+    padding-left: 90px;
+    margin: 0 auto;
+}
+
+input {
+    margin-top: 0px;
+}
+
+.error {
+    margin: 0;
+    margin-bottom: 1px;
+    color: red;
+    font-size: 14px;
+}
+
+.error p {
+    margin: 0;
+}

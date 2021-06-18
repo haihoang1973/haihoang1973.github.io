@@ -1,0 +1,100 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+    border: 1px solid seagreen;
+    margin-bottom: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: end;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+#nav {
+    width: 100%;
+    border: 1px solid seagreen;
+    margin-bottom: 30px;
+}
+
+#left {
+    float: left;
+    padding: 15px;
+}
+
+#left p {
+    margin: 10px;
+}
+
+#left a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+    border: 1px solid seagreen;
+    margin-bottom: 10px;
+}
+
+#left a:hover {
+    background-color: seagreen;
+}
+
+#left img {
+    width: 100%;
+    border: 1px solid seagreen;
+}
+
+#right {
+    width: 80%;
+    float: right;
+    padding: 15px;
+    border-left: 1px solid seagreen;
+}
+
+/* Custom riêng cho các the input */
+
+input[type="text"],[type="password"],[type="email"]{
+    width:  230px !important;
+    margin-right: 30px;
+}
+
+select{
+    width: 150px !important;
+}
+
+table {
+    margin: 0 auto !important;
+}
+
+.btn-search {
+    text-align: end;
+}
+
+#list table {
+    width: 100%;
+}
+#list table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#list  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+#list tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#pagecenter {
+    margin-top: 10px;
+    text-align: center;
+}
+

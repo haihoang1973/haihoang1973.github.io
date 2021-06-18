@@ -1,0 +1,54 @@
+#nav{
+    width: 500px;
+    height: auto;
+    border: 1px solid seagreen;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#title{
+    height: 60px;
+    background-color: seagreen;
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom{
+    padding-left: 250px;
+    margin-bottom: 6px;
+}
+
+a{
+    color: black;
+}
+
+#divinput{
+    position: relative;
+    margin-top: 20px;
+}
+
+#divinput i{
+    position: relative;
+    left: 25px;
+    color: seagreen;
+}
+
+#divsubmit {
+    text-align: center;
+}
+
+.error {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 5px
+}

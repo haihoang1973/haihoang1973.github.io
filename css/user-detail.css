@@ -1,0 +1,44 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+    border: 1px solid seagreen;
+    margin-bottom: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: end;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+#nav {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid seagreen;
+}
+
+#left {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+#left p {
+    margin: 10px;
+}
+
+#left img {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid seagreen;
+}
+
+#right {
+    width: 60%;
+    float: right;
+    padding: 10px;
+}
+
